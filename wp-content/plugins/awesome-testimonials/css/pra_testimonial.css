@@ -1,0 +1,152 @@
+.pra_testimonialtext {
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+	padding: 20px;
+}
+.quote-left {
+	background: url("images/quote.png") no-repeat scroll 0 0;
+	height: 28px;
+	margin: -12px 0 0 -10px;
+	position: absolute;
+	width: 33px;
+}
+.pra_testimonial .testi-content{
+	display: block;
+	font-size: 17px;
+	margin: 0 0 0 30px;
+}
+.quote-right {
+	background: url("images/quote.png") no-repeat scroll top right;
+	height: 28px;
+	margin: 4px -10px 0 10px;
+	position: absolute;
+	width: 33px;
+}
+.pra_arrow {
+	background: url("images/arrow.png") no-repeat scroll 0 0;
+	display: block;
+	height: 13px;
+	margin: -1px 0 0 23px;
+	width: 99px;
+}
+.pra_testimonial cite .photo img {
+	border-radius: 50%;
+	height: auto;
+	margin-top:5px;
+}
+.pra_testimonial cite .author {
+	color: #479ccf;
+	font-size: 18px;
+	margin-left: 12px;
+}
+.pra_next, .pra_prev {
+	background: none repeat scroll 0 0 #d7d7d7;
+	border: medium none !important;
+	color: #000 !important;
+	display: inline-block !important;
+	font-size: 28px;
+	height: 27px;
+	line-height: 20px;
+	padding: 1px 7px 0 0;
+	text-decoration: none !important;
+	width: 27px;
+	z-index: 9;
+}
+.pra_next:hover, .pra_prev:hover {
+	background: none repeat scroll 0 0 #000;
+	color: #fff !important;
+	text-decoration:none;
+}
+.pra_testimonial {
+	margin-bottom: 25px;
+}
+.pra_navigation {
+	text-align: right;
+	z-index: 10;
+	display:block;
+	clear:both;
+}
+/****************/
+
+
+.pra_front_stars {
+	width: 100px;
+	height: 19px;
+	background: url(images/stars.png) 0 0 repeat-x;
+	position: relative;
+	left:6%;
+}
+.pra_front_stars .rating {
+	height: 19px;
+	background: url(images/stars.png) 0 -19px repeat-x;
+}
+.pra_front_stars input[type="radio"] {
+	display: none;
+}
+.pra_front_stars label {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 19px;
+	width: 100px;
+}
+.pra_front_stars:hover label {
+	display: block;
+}
+.pra_front_stars label + input + label {
+	width: 81px;
+}
+.pra_front_stars label + input + label + input + label {
+	width: 62px;
+}
+.pra_front_stars label + input + label + input + label + input + label {
+	width: 43px;
+}
+.pra_front_stars label + input + label + input + label + input + label + input + label {
+	width: 24px;
+}
+.pra_rightsection {
+	float: left;
+	min-width: 125px;
+}
+.pra_testimonial .photo {
+	float:left;
+}
+.pra_clear {
+	border: medium none;
+	clear: both;
+	float: none;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+}
+.pra_rightsection strong {
+	clear: both;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+}
+.pra_pagination a {
+	border: 1px solid #ccc;
+	color: #000;
+	padding: 0px 8px;
+	margin-right: 6px;
+}
+.pra_pagination span {
+	border: 1px solid #ccc;
+	color: #000;
+	padding: 0px 8px;
+	margin-right: 6px;
+}
+.pra_pagination span:hover {
+	color: #000;
+}
+.pra_pagination {
+	display: inline-block;
+	text-align: right;
+	clear: both;
+	float: right;
+}

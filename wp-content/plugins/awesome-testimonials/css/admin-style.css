@@ -1,0 +1,55 @@
+.pra_stars {
+	width: 100px;
+	height: 19px;
+	background: url(images/stars.png) 0 0 repeat-x;
+	position: relative;
+}
+.pra_stars .rating {
+	height: 19px;
+	background: url(images/stars.png) 0 -38px repeat-x;
+}
+.pra_stars input[type="radio"] {
+	display: none;
+}
+.pra_stars label {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 19px;
+	width: 100px;
+	cursor: pointer;
+}
+.pra_stars:hover label {
+	display: block;
+}
+.pra_stars label:hover {
+	background: url(images/stars.png) 0 -19px repeat-x;
+}
+.pra_stars label + input + label {
+	width: 81px;
+}
+.pra_stars label + input + label + input + label {
+	width: 62px;
+}
+.pra_stars label + input + label + input + label + input + label {
+	width: 43px;
+}
+.pra_stars label + input + label + input + label + input + label + input + label {
+	width: 24px;
+}
+.pra_stars input:checked + label {
+	display: block;
+	background: url(images/stars.png) 0 -19px repeat-x;
+}
+.pra_label {
+	float:left;
+}
+.pra_lovedto a {
+	background: url(images/loved.png) no-repeat;
+	height: 163px;
+	position: fixed;
+	right: 0;
+	top: 20%;
+	width: 200px;
+}
